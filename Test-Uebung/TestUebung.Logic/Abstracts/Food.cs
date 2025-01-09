@@ -14,5 +14,4 @@ public abstract class Food(string name , int value) : IFood
 
         public override string ToString() 
                 => $"The Item: {Name} has a healing value of: {Value} Points, and a duration of {Duration} seconds.";
-
 }

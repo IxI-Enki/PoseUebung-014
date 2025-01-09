@@ -10,9 +10,7 @@ internal class Program
                 HealthPotion HPpotion = new("smallHealthPotion" , value: 15);
                 ManaPotion MPpotion = new("smallManaPotion" , value: 13);
 
-                Console.WriteLine($"{HPpotion}");
-                Console.WriteLine();
-                Console.WriteLine($"{MPpotion}");
+
 
                 Console.ReadLine();
         }
