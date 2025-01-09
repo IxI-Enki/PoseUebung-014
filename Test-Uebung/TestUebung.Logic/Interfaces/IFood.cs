@@ -1,6 +1,3 @@
 ﻿namespace TestUebung.Logic.Interfaces;
 
-interface IFood : IItem 
-{ 
-
-}
+interface IFood : IItem { }

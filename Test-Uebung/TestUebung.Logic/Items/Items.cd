@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="TestUebung.Logic.Items.HealthPotion">
-    <Position X="8.75" Y="0.75" Width="1.5" />
+    <Position X="9.5" Y="2" Width="1.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
       <FileName>Items\HealthPotion.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="TestUebung.Logic.Items.ManaPotion">
-    <Position X="6.75" Y="0.75" Width="1.5" />
+    <Position X="11.25" Y="2.5" Width="1.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
       <FileName>Items\ManaPotion.cs</FileName>
@@ -52,6 +52,17 @@
     </ShowAsAssociation>
     <Lollipop Orientation="Left" Position="0.145" />
   </Class>
+  <Class Name="TestUebung.Logic.Abstracts.Item">
+    <Position X="3.25" Y="4.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Abstracts\Item.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Category" />
+    </ShowAsAssociation>
+    <Lollipop Orientation="Right" Position="0.125" />
+  </Class>
   <Interface Name="TestUebung.Logic.Interfaces.IPotion">
     <Position X="5.25" Y="3" Width="1.25" />
     <TypeIdentifier>
@@ -65,9 +76,6 @@
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAACAA=</HashCode>
       <FileName>Interfaces\IItem.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Category" />
-    </ShowAsAssociation>
   </Interface>
   <Interface Name="TestUebung.Logic.Interfaces.IFood">
     <Position X="5.25" Y="6" Width="1.25" />
@@ -84,7 +92,7 @@
     </TypeIdentifier>
   </Enum>
   <Enum Name="TestUebung.Logic.Enums.ItemCategory">
-    <Position X="3.25" Y="4.5" Width="1.25" />
+    <Position X="3.25" Y="3" Width="1.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
       <FileName>Enums\ItemCategory.cs</FileName>
