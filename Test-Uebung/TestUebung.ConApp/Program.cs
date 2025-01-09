@@ -14,10 +14,13 @@ internal class Program
 
                 if (HPpotion.Category is ItemCategory.Potion)
                 {
-                        Console.WriteLine(nameof(HPpotion) + " is a potion");
-                        if (HPpotion.Type is StatType.Health)
-                                Console.WriteLine(nameof(HPpotion) + " heals");
+                        Console.WriteLine($"{nameof(HPpotion)} is a potion");
+
+                        if (HealthPotion.Type is StatType.Health)
+                                Console.WriteLine($"{nameof(HPpotion)} heals");
                 }
+
+
 
                 Console.ReadLine();
         }

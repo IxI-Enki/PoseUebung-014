@@ -1,6 +1,5 @@
 ﻿namespace TestUebung.Logic;
 
-
 public sealed class AuctionHouse
 {
         #region FIELDS
