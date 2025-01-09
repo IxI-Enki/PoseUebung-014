@@ -1,10 +1,15 @@
-﻿
+﻿using TestUebung.Logic;
+
 namespace TestUebung.ConApp;
 
 internal class Program
 {
         static void Main()
         {
-                Console.WriteLine("Hello, World!");
+                Console.WriteLine(AuctionHouse.Instance);
+
+                AuctionHouse.Instance.OpenAuctionHouse();
+
+                Console.ReadLine();
         }
 }
