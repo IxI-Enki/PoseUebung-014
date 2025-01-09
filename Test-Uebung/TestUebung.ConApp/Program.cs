@@ -1,6 +1,4 @@
-﻿using TestUebung.Logic;
-
-namespace TestUebung.ConApp;
+﻿namespace TestUebung.ConApp;
 
 internal class Program
 {

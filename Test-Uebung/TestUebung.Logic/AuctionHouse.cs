@@ -1,5 +1,6 @@
 ﻿namespace TestUebung.Logic;
 
+
 public sealed class AuctionHouse
 {
         #region FIELDS
@@ -29,7 +30,7 @@ public sealed class AuctionHouse
 
         public void OpenAuctionHouse()
         {
-                Console.WriteLine("AuctionHouse opened");
+                Console.WriteLine("AuctionHouse opened".ForegroundColor("green"));
         }
 
         #endregion

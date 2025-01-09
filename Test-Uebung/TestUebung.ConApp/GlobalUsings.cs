@@ -8,7 +8,7 @@ global using System.Threading.Tasks;
 global using System.Collections.Generic;
 
 /// TEST-UEBUNG
-
+global using TestUebung.Logic;
 
 
 /// 
