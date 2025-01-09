@@ -3,7 +3,7 @@
   <Class Name="TestUebung.Logic.AuctionHouse">
     <Position X="5.75" Y="2.75" Width="3" />
     <TypeIdentifier>
-      <HashCode>AAAEAAAAAAAAAAAEAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <HashCode>AAAEAAAAAAAAAAAEAAAAAAAAAAAAAgAAQAAAAAAAAAA=</HashCode>
       <FileName>AuctionHouse.cs</FileName>
     </TypeIdentifier>
   </Class>

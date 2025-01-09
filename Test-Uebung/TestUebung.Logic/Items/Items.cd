@@ -15,10 +15,10 @@
     </TypeIdentifier>
   </Class>
   <Class Name="TestUebung.Logic.Abstracts.Potion">
-    <Position X="7.5" Y="2.5" Width="1.5" />
+    <Position X="7.5" Y="2" Width="1.5" />
     <AssociationLine Name="Type" Type="TestUebung.Logic.Enums.StatType" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="8" Y="4.012" />
+        <Point X="8" Y="3.973" />
         <Point X="8" Y="4.408" />
         <Point X="8" Y="4.408" />
         <Point X="8" Y="4.75" />
@@ -28,7 +28,7 @@
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAgAAAACAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAQAgAAAACAA=</HashCode>
       <FileName>Abstracts\Potion.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -44,7 +44,7 @@
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAACAAAAAAAAAAQAAAAAAAAAAQAgAAAACAA=</HashCode>
+      <HashCode>AAAAAAAAAAACAAAEAAAAAAQAAAAAAAAAAQAgAAAACAA=</HashCode>
       <FileName>Abstracts\Food.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
