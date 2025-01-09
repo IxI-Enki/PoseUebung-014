@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Test-Uebung/.vs
+/Test-Uebung/TestUebung.ConApp/obj
+/Test-Uebung/TestUebung.Logic/obj
+/Test-Uebung/TestUebung.UnitTest/bin/Debug/net8.0
+/Test-Uebung/TestUebung.UnitTest/obj
