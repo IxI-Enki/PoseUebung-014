@@ -50,17 +50,17 @@
     <ShowAsAssociation>
       <Property Name="Type" />
     </ShowAsAssociation>
-    <Lollipop Orientation="Left" Position="0.124" />
+    <Lollipop Orientation="Left" Position="0.145" />
   </Class>
   <Interface Name="TestUebung.Logic.Interfaces.IPotion">
-    <Position X="5.5" Y="2.5" Width="1.25" />
+    <Position X="5.25" Y="3" Width="1.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IPotion.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="TestUebung.Logic.Interfaces.IItem">
-    <Position X="5.5" Y="4" Width="1.25" />
+    <Position X="5.25" Y="4.5" Width="1.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAACAA=</HashCode>
       <FileName>Interfaces\IItem.cs</FileName>
@@ -70,7 +70,7 @@
     </ShowAsAssociation>
   </Interface>
   <Interface Name="TestUebung.Logic.Interfaces.IFood">
-    <Position X="5.5" Y="5.5" Width="1.25" />
+    <Position X="5.25" Y="6" Width="1.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IFood.cs</FileName>
@@ -84,7 +84,7 @@
     </TypeIdentifier>
   </Enum>
   <Enum Name="TestUebung.Logic.Enums.ItemCategory">
-    <Position X="3.25" Y="4" Width="1.25" />
+    <Position X="3.25" Y="4.5" Width="1.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
       <FileName>Enums\ItemCategory.cs</FileName>
