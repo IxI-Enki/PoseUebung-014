@@ -9,7 +9,7 @@ global using System.Collections.Generic;
 
 /// TEST-UEBUNG
 global using TestUebung.Logic;
-
+global using TestUebung.Logic.Items;
 
 /// 
 namespace TestUebung.ConApp;

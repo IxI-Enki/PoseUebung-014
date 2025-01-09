@@ -1,4 +1,5 @@
-﻿namespace TestUebung.ConApp;
+﻿
+namespace TestUebung.ConApp;
 
 internal class Program
 {
@@ -7,6 +8,14 @@ internal class Program
                 Console.WriteLine(AuctionHouse.Instance);
 
                 AuctionHouse.Instance.OpenAuctionHouse();
+
+                ManaPotion smallManaPotion = new();
+
+                HealthPotion smallHealthPotion = new();
+
+                
+
+                Console.WriteLine();
 
                 Console.ReadLine();
         }

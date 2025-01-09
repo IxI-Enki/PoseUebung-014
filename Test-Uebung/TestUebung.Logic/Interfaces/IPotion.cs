@@ -1,6 +1,7 @@
 ﻿namespace TestUebung.Logic.Interfaces;
 
-internal interface IPotion
+internal interface IPotion : IItem
 {
-        ItemCategory Category => ItemCategory.Potion;
+
+ 
 }

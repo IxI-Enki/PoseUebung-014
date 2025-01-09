@@ -1,4 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TestUebung.Logic.Items.HealthPotion">
+    <Position X="6" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\HealthPotion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestUebung.Logic.Items.ManaPotion">
+    <Position X="6" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\ManaPotion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="TestUebung.Logic.Interfaces.IPotion">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IPotion.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="TestUebung.Logic.Enums.StatType">
+    <Position X="9.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Enums\StatType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TestUebung.Logic.Enums.ItemCategory">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Enums\ItemCategory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
   <Font Name="Segoe UI" Size="9.2" />
 </ClassDiagram>

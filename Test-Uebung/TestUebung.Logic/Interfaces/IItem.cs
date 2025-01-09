@@ -2,5 +2,6 @@
 
 internal interface IItem
 {
-        abstract ItemCategory Category { get; }
+
+
 }

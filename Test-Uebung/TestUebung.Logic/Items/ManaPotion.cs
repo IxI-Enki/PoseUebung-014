@@ -1,6 +1,6 @@
 ﻿namespace TestUebung.Logic.Items;
 
-internal sealed class ManaPotion : IPotion
+public sealed class ManaPotion : Potion
 {
 
 }
