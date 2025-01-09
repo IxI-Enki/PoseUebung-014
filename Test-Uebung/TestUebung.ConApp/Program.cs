@@ -1,21 +1,22 @@
-﻿
-namespace TestUebung.ConApp;
+﻿namespace TestUebung.ConApp;
 
 internal class Program
 {
         static void Main()
         {
                 Console.WriteLine(AuctionHouse.Instance);
-
                 AuctionHouse.Instance.OpenAuctionHouse();
 
-                ManaPotion smallManaPotion = new();
+                HealthPotion smallHealthPotion = new("smallHealthPotion");
 
-                HealthPotion smallHealthPotion = new();
+                Console.WriteLine(smallHealthPotion.Name);
 
-                
-
-                Console.WriteLine();
+                if (smallHealthPotion.Category is ItemCategory.Potion)
+                {
+                        Console.WriteLine(nameof(smallHealthPotion) + " is a potion");
+                        if (smallHealthPotion.Type is StatType.Health)
+                                Console.WriteLine(nameof(smallHealthPotion) + " heals");
+                }
 
                 Console.ReadLine();
         }

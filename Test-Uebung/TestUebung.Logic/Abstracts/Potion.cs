@@ -1,8 +1,10 @@
-﻿
+﻿namespace TestUebung.Logic.Abstracts;
 
-namespace TestUebung.Logic.Abstracts;
-
-public abstract class Potion : IPotion
+public abstract class Potion(string name) : IPotion
 {
+        public ItemCategory Category => ItemCategory.Potion;
 
+        public StatType Type { get; }
+
+        public string Name => name;
 }

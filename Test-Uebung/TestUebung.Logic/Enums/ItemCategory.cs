@@ -1,6 +1,6 @@
 ﻿namespace TestUebung.Logic.Enums;
 
-internal enum ItemCategory
+public enum ItemCategory
 {
         Potion,
         Food

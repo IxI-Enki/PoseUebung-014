@@ -9,6 +9,7 @@ global using System.Collections.Generic;
 
 /// TEST-UEBUNG
 global using TestUebung.Logic.Enums;
+global using TestUebung.Logic.Items;
 global using TestUebung.Logic.Abstracts;
 global using TestUebung.Logic.Extensions;
 global using TestUebung.Logic.Interfaces;

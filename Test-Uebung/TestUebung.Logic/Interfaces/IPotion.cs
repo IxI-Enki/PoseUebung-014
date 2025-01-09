@@ -1,7 +1,6 @@
 ﻿namespace TestUebung.Logic.Interfaces;
 
-internal interface IPotion : IItem
+interface IPotion : IItem
 {
 
- 
 }

@@ -1,6 +1,6 @@
 ﻿namespace TestUebung.Logic.Enums;
 
-internal enum StatType
+public enum StatType
 {
         Health,
         Mana
