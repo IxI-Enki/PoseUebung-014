@@ -7,8 +7,8 @@ internal class Program
                 Console.WriteLine(AuctionHouse.Instance);
                 AuctionHouse.Instance.OpenAuctionHouse();
 
-                HealthPotion HPpotion = new("smallHealthPotion" , value: 15);
-                ManaPotion MPpotion = new("smallManaPotion" , value: 13);
+                HealthPotion HPotion = new("smallHealthPotion" , value: 15);
+                ManaPotion MPotion = new("smallManaPotion" , value: 13);
 
 
 

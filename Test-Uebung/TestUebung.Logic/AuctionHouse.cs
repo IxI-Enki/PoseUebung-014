@@ -1,4 +1,5 @@
-﻿namespace TestUebung.Logic;
+﻿
+namespace TestUebung.Logic;
 
 public sealed class AuctionHouse
 {
@@ -29,7 +30,21 @@ public sealed class AuctionHouse
 
         public void OpenAuctionHouse()
         {
+                Thread runAuctionHouse = new(RunAuctionHouse)
+                {
+                        IsBackground = true
+                };
+                runAuctionHouse.Start();
+        }
+
+        private void RunAuctionHouse()
+        {
                 Console.WriteLine("AuctionHouse opened".ForegroundColor("green"));
+                while (true)
+                {
+                        Thread.Sleep(1000);
+                        Console.WriteLine("Tick");
+                }
         }
 
         #endregion
