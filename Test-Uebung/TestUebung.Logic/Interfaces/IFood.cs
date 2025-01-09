@@ -1,3 +1,6 @@
 ﻿namespace TestUebung.Logic.Interfaces;
 
-interface IPotion : IItem { }
+interface IFood : IItem 
+{ 
+
+}

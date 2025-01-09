@@ -6,5 +6,5 @@ public abstract class Potion(string name) : IPotion
 
         public StatType Type { get; }
 
-        public string Name => name;
+        public string Name { get; } = name;
 }

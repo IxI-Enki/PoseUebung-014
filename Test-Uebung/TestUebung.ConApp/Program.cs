@@ -7,15 +7,15 @@ internal class Program
                 Console.WriteLine(AuctionHouse.Instance);
                 AuctionHouse.Instance.OpenAuctionHouse();
 
-                HealthPotion smallHealthPotion = new("smallHealthPotion");
+                HealthPotion HPpotion = new("smallHealthPotion");
 
-                Console.WriteLine(smallHealthPotion.Name);
+                Console.WriteLine(HPpotion.Name);
 
-                if (smallHealthPotion.Category is ItemCategory.Potion)
+                if (HPpotion.Category is ItemCategory.Potion)
                 {
-                        Console.WriteLine(nameof(smallHealthPotion) + " is a potion");
-                        if (smallHealthPotion.Type is StatType.Health)
-                                Console.WriteLine(nameof(smallHealthPotion) + " heals");
+                        Console.WriteLine(nameof(HPpotion) + " is a potion");
+                        if (HPpotion.Type is StatType.Health)
+                                Console.WriteLine(nameof(HPpotion) + " heals");
                 }
 
                 Console.ReadLine();
